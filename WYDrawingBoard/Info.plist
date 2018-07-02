@@ -28,6 +28,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>允许在您使用该应用时访问您的相册</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>允许在您使用该应用时访问您的相册</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

@@ -15,6 +15,20 @@
 		CFC4D22A20E9C99600979805 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4D22920E9C99600979805 /* main.m */; };
 		CFC4D23420E9C99600979805 /* WYDrawingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4D23320E9C99600979805 /* WYDrawingBoardTests.m */; };
 		CFC4D23F20E9C99600979805 /* WYDrawingBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4D23E20E9C99600979805 /* WYDrawingBoardUITests.m */; };
+		CFC4D25220E9C9B700979805 /* wy_revoke_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC4D24D20E9C9B700979805 /* wy_revoke_gray.png */; };
+		CFC4D25320E9C9B700979805 /* wy_back.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC4D24E20E9C9B700979805 /* wy_back.png */; };
+		CFC4D25420E9C9B700979805 /* wy_eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC4D24F20E9C9B700979805 /* wy_eraser.png */; };
+		CFC4D25520E9C9B700979805 /* wy_revoke_white.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC4D25020E9C9B700979805 /* wy_revoke_white.png */; };
+		CFC4D25620E9C9B700979805 /* wy_colorSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC4D25120E9C9B700979805 /* wy_colorSelect.png */; };
+		CFC4D25E20E9C9BD00979805 /* WYColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4D25920E9C9BD00979805 /* WYColorSlider.m */; };
+		CFC4D25F20E9C9BD00979805 /* WYDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4D25B20E9C9BD00979805 /* WYDrawView.m */; };
+		CFC4D26020E9C9BD00979805 /* WYSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4D25D20E9C9BD00979805 /* WYSelectView.m */; };
+		CFC4D26A20E9C9F000979805 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4D26320E9C9F000979805 /* UIView+Frame.m */; };
+		CFC4D26B20E9C9F000979805 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4D26420E9C9F000979805 /* UIButton+Block.m */; };
+		CFC4D26C20E9C9F000979805 /* UIColor+WY.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4D26520E9C9F000979805 /* UIColor+WY.m */; };
+		CFC4D26D20E9C9F000979805 /* WYMain.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4D26620E9C9F000979805 /* WYMain.m */; };
+		CFC4D27320E9CBF300979805 /* UIAlertController+WY.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4D27220E9CBF300979805 /* UIAlertController+WY.m */; };
+		CFC4D27920E9CE6700979805 /* WYDrawingBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4D27820E9CE6700979805 /* WYDrawingBoardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,29 @@
 		CFC4D23A20E9C99600979805 /* WYDrawingBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYDrawingBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC4D23E20E9C99600979805 /* WYDrawingBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYDrawingBoardUITests.m; sourceTree = "<group>"; };
 		CFC4D24020E9C99600979805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC4D24D20E9C9B700979805 /* wy_revoke_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wy_revoke_gray.png; sourceTree = "<group>"; };
+		CFC4D24E20E9C9B700979805 /* wy_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wy_back.png; sourceTree = "<group>"; };
+		CFC4D24F20E9C9B700979805 /* wy_eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wy_eraser.png; sourceTree = "<group>"; };
+		CFC4D25020E9C9B700979805 /* wy_revoke_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wy_revoke_white.png; sourceTree = "<group>"; };
+		CFC4D25120E9C9B700979805 /* wy_colorSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wy_colorSelect.png; sourceTree = "<group>"; };
+		CFC4D25820E9C9BD00979805 /* WYDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYDrawView.h; sourceTree = "<group>"; };
+		CFC4D25920E9C9BD00979805 /* WYColorSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYColorSlider.m; sourceTree = "<group>"; };
+		CFC4D25A20E9C9BD00979805 /* WYSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYSelectView.h; sourceTree = "<group>"; };
+		CFC4D25B20E9C9BD00979805 /* WYDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYDrawView.m; sourceTree = "<group>"; };
+		CFC4D25C20E9C9BD00979805 /* WYColorSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYColorSlider.h; sourceTree = "<group>"; };
+		CFC4D25D20E9C9BD00979805 /* WYSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYSelectView.m; sourceTree = "<group>"; };
+		CFC4D26220E9C9F000979805 /* WYMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMain.h; sourceTree = "<group>"; };
+		CFC4D26320E9C9F000979805 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		CFC4D26420E9C9F000979805 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		CFC4D26520E9C9F000979805 /* UIColor+WY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WY.m"; sourceTree = "<group>"; };
+		CFC4D26620E9C9F000979805 /* WYMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMain.m; sourceTree = "<group>"; };
+		CFC4D26720E9C9F000979805 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		CFC4D26820E9C9F000979805 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		CFC4D26920E9C9F000979805 /* UIColor+WY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WY.h"; sourceTree = "<group>"; };
+		CFC4D27120E9CBF300979805 /* UIAlertController+WY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+WY.h"; sourceTree = "<group>"; };
+		CFC4D27220E9CBF300979805 /* UIAlertController+WY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+WY.m"; sourceTree = "<group>"; };
+		CFC4D27720E9CE6700979805 /* WYDrawingBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYDrawingBoardView.h; sourceTree = "<group>"; };
+		CFC4D27820E9CE6700979805 /* WYDrawingBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYDrawingBoardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +142,7 @@
 				CFC4D21B20E9C99500979805 /* AppDelegate.m */,
 				CFC4D21D20E9C99500979805 /* ViewController.h */,
 				CFC4D21E20E9C99500979805 /* ViewController.m */,
+				CFC4D27A20E9D00F00979805 /* WYDrawingBoard */,
 				CFC4D22020E9C99500979805 /* Main.storyboard */,
 				CFC4D22320E9C99600979805 /* Assets.xcassets */,
 				CFC4D22520E9C99600979805 /* LaunchScreen.storyboard */,
@@ -130,6 +168,60 @@
 				CFC4D24020E9C99600979805 /* Info.plist */,
 			);
 			path = WYDrawingBoardUITests;
+			sourceTree = "<group>";
+		};
+		CFC4D24C20E9C9B700979805 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CFC4D24D20E9C9B700979805 /* wy_revoke_gray.png */,
+				CFC4D24E20E9C9B700979805 /* wy_back.png */,
+				CFC4D24F20E9C9B700979805 /* wy_eraser.png */,
+				CFC4D25020E9C9B700979805 /* wy_revoke_white.png */,
+				CFC4D25120E9C9B700979805 /* wy_colorSelect.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CFC4D25720E9C9BD00979805 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				CFC4D27720E9CE6700979805 /* WYDrawingBoardView.h */,
+				CFC4D27820E9CE6700979805 /* WYDrawingBoardView.m */,
+				CFC4D25820E9C9BD00979805 /* WYDrawView.h */,
+				CFC4D25B20E9C9BD00979805 /* WYDrawView.m */,
+				CFC4D25C20E9C9BD00979805 /* WYColorSlider.h */,
+				CFC4D25920E9C9BD00979805 /* WYColorSlider.m */,
+				CFC4D25A20E9C9BD00979805 /* WYSelectView.h */,
+				CFC4D25D20E9C9BD00979805 /* WYSelectView.m */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		CFC4D26120E9C9F000979805 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CFC4D26220E9C9F000979805 /* WYMain.h */,
+				CFC4D26620E9C9F000979805 /* WYMain.m */,
+				CFC4D26820E9C9F000979805 /* UIView+Frame.h */,
+				CFC4D26320E9C9F000979805 /* UIView+Frame.m */,
+				CFC4D26720E9C9F000979805 /* UIButton+Block.h */,
+				CFC4D26420E9C9F000979805 /* UIButton+Block.m */,
+				CFC4D26920E9C9F000979805 /* UIColor+WY.h */,
+				CFC4D26520E9C9F000979805 /* UIColor+WY.m */,
+				CFC4D27120E9CBF300979805 /* UIAlertController+WY.h */,
+				CFC4D27220E9CBF300979805 /* UIAlertController+WY.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CFC4D27A20E9D00F00979805 /* WYDrawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CFC4D26120E9C9F000979805 /* Tools */,
+				CFC4D25720E9C9BD00979805 /* Draw */,
+				CFC4D24C20E9C9B700979805 /* Images */,
+			);
+			path = WYDrawingBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +329,12 @@
 			files = (
 				CFC4D22720E9C99600979805 /* LaunchScreen.storyboard in Resources */,
 				CFC4D22420E9C99600979805 /* Assets.xcassets in Resources */,
+				CFC4D25220E9C9B700979805 /* wy_revoke_gray.png in Resources */,
+				CFC4D25620E9C9B700979805 /* wy_colorSelect.png in Resources */,
+				CFC4D25420E9C9B700979805 /* wy_eraser.png in Resources */,
+				CFC4D25520E9C9B700979805 /* wy_revoke_white.png in Resources */,
 				CFC4D22220E9C99500979805 /* Main.storyboard in Resources */,
+				CFC4D25320E9C9B700979805 /* wy_back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +359,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC4D26020E9C9BD00979805 /* WYSelectView.m in Sources */,
+				CFC4D25E20E9C9BD00979805 /* WYColorSlider.m in Sources */,
+				CFC4D27920E9CE6700979805 /* WYDrawingBoardView.m in Sources */,
 				CFC4D21F20E9C99500979805 /* ViewController.m in Sources */,
+				CFC4D26B20E9C9F000979805 /* UIButton+Block.m in Sources */,
+				CFC4D26A20E9C9F000979805 /* UIView+Frame.m in Sources */,
 				CFC4D22A20E9C99600979805 /* main.m in Sources */,
+				CFC4D27320E9CBF300979805 /* UIAlertController+WY.m in Sources */,
+				CFC4D26D20E9C9F000979805 /* WYMain.m in Sources */,
 				CFC4D21C20E9C99500979805 /* AppDelegate.m in Sources */,
+				CFC4D26C20E9C9F000979805 /* UIColor+WY.m in Sources */,
+				CFC4D25F20E9C9BD00979805 /* WYDrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +540,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 659739RC84;
 				INFOPLIST_FILE = WYDrawingBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +557,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 659739RC84;
 				INFOPLIST_FILE = WYDrawingBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
