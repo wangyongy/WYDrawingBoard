@@ -19,8 +19,6 @@
     NSTimer * _showTimer;
 }
 
-@property (nonatomic, strong) NSMutableArray * pointArray;
-
 @property(nonatomic,assign)BOOL isStart;
 
 @end

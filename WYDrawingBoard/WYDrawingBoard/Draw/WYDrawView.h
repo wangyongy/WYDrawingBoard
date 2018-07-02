@@ -17,6 +17,8 @@
 @property(nonatomic,assign)BOOL isDrawing;                                  //是否正在绘制
 
 @property(nonatomic,copy) void(^isDrawingBlock)(BOOL isDrawing);            //isDrawing值改变时的回调
+
+@property (nonatomic, strong) NSMutableArray * pointArray;                  //画板上所有点的集合
 /**
  初始化
  
